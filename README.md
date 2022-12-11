@@ -1,3 +1,3 @@
 # card-animation
-hover animation
+hover animation using css
 https://elenadonova.github.io/card-animation/
