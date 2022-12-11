@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e5d4ce;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  /* align-items: center; 
+   justify-content: center; */
+}
+
+.cards {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.big-card {
+  background-size: cover;
+  background-color: #de6e4b;
+  width: 250px;
+  aspect-ratio: 5/7;
+  border-radius: 10px;
+  position: absolute;
+  transition: 1s ease;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  box-shadow: 10px 5px 5px rgba(128, 128, 128, 0.24);
+}
+
+.small-card {
+  background-size: cover;
+  background-color: #e56399;
+  height: 100px;
+  aspect-ratio: 5/7;
+  position: absolute;
+  border-radius: 10px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: 1s ease;
+  z-index: -9;
+}
+
+.c-1 {
+  background-image: url(https://media1.popsugar-assets.com/files/thumbor/yDmG0ifN-I44d2uG4EIDwWg2yfE/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2018/08/21/616/n/24155406/a4387395142b050c_charles-deluvio-550068-unsplash/i/Cute-Photos-Dogs.jpg);
+  background-color: #7fd1b9;
+  transform: translateX(-20%) rotate(-13deg);
+}
+
+.c-2 {
+  background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/lifestyle-bestdogbreeds-1577128927.png?crop=0.502xw:1.00xh;0.263xw,0&resize=640:*);
+  background-color: #7a6563;
+  transform: translateX(-9%) rotate(-8deg);
+}
+
+.c-3 {
+  transform: translateX(1%) rotate(-3deg);
+  background-color: rgba(255, 255, 255, 0.466);
+}
+
+.c-4 {
+  transform: translateX(10%);
+  background-image: url(https://i.pinimg.com/564x/30/f4/01/30f4015f68989d73a6c87b2a53aac7ac.jpg);
+}
+
+.c-5 {
+  background-image: url(https://i.pinimg.com/originals/54/9b/11/549b114dad455ae154295ecad1d05f71.png);
+  background-color: yellow;
+}
+
+.c-6 {
+  background-image: url(https://preview.redd.it/l3n6k3w4eqh51.jpg?width=640&crop=smart&auto=webp&s=6d1bd89388411cfaaf54d05d5fd9ad35d679bb1d);
+}
+
+.c-7 {
+  background-image: url(https://i.pinimg.com/736x/ce/85/7a/ce857a587e72968fcf5ee23b9c1d2a9a.jpg);
+}
+.c-8 {
+  background-image: url(https://i.pinimg.com/originals/a4/cf/7f/a4cf7f97acd02f87235ef0fe178946e1.jpg);
+}
+
+.all:hover > .c-1 {
+  transform: translateX(-70%) rotate(-20deg) translateY(10%);
+}
+.all:hover > .c-2 {
+  transform: translateX(-40%) rotate(-13deg);
+}
+.all:hover > .c-3 {
+  transform: translateX(-10%) rotate(1deg);
+}
+
+.all:hover > .c-4 {
+  transform: translateX(30%) rotate(11deg) translateY(10%);
+}
+
+.all:hover > .c-5 {
+  transform: translateX(250%) translateY(-240%) rotate(-10deg);
+}
+
+.all:hover > .c-6 {
+  background-color: orange;
+  transform: translateX(220%) translateY(230%) rotate(14deg);
+}
+
+.all:hover > .c-7 {
+  background-color: blue;
+  transform: translateX(-410%) translateY(230%) rotate(-6deg);
+}
+
+.all:hover > .c-8 {
+  transform: translateX(-510%) translateY(-210%) rotate(10deg);
+}
+.all:hover > .small-card {
+  box-shadow: 10px 5px 5px rgba(128, 128, 128, 0.24);
+  height: 100px;
+}
