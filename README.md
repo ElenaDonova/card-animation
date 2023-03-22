@@ -1,3 +1,4 @@
 # card-animation
-hover animation using css
+Анимация при наведении с помощью CSS.
+Ссылка на сайт GithubPages:
 https://elenadonova.github.io/card-animation/
